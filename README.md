@@ -1,6 +1,10 @@
 # Bankist Website
 
-An interactive banking landing page built while studying advanced JavaScript DOM concepts.
+An interactive banking landing page built while studying advanced JavaScript DOM manipulation and browser APIs.
+
+## Live Demo
+
+[View Live Website](https://sametbaltaa.github.io/bankist-website/)
 
 ## Features
 
@@ -9,11 +13,10 @@ An interactive banking landing page built while studying advanced JavaScript DOM
 - Event delegation for navigation
 - Tabbed content component
 - Navigation fade effect
-- Sticky navigation with the Intersection Observer API
+- Sticky navigation using the Intersection Observer API
 - Section reveal animations
 - Lazy-loaded images
 - Custom testimonial slider
-- Responsive layout improvements
 
 ## Technologies
 
@@ -21,13 +24,27 @@ An interactive banking landing page built while studying advanced JavaScript DOM
 - CSS3
 - JavaScript (ES6+)
 - Intersection Observer API
+- DOM manipulation and event handling
 
-## Notes
+## What I Learned
 
-This project is based on the **Bankist** project from Jonas Schmedtmann's JavaScript course. It is included here as a learning/portfolio project. The original design and course material belong to Jonas Schmedtmann.
+- Implementing interactive UI components with vanilla JavaScript
+- Using event delegation to manage user interactions
+- Working with the Intersection Observer API
+- Improving page performance through lazy loading
+- Creating scroll-based animations and navigation effects
+- Organizing DOM-related functionality into reusable functions
 
-I cleaned and organized my working version for portfolio use, removed lecture/debug code, fixed interaction issues, and added responsive improvements.
+## Run Locally
 
-## Run locally
+Clone the repository and open `index.html` in your browser, or use a local development server.
 
-Keep the original `img/` folder from the course project in the same directory as `index.html`, `style.css`, and `script.js`. Then open `index.html` in a browser or serve the folder with a local development server.
+Make sure the `img/` folder is included alongside the HTML, CSS, and JavaScript files.
+
+## Attribution
+
+This project is based on the Bankist Website project from Jonas Schmedtmann's JavaScript course.
+
+The original design and course materials belong to Jonas Schmedtmann. This repository represents my implementation and learning progress while following the course.
+
+The portfolio version was cleaned to remove lecture and debugging code.
